@@ -118,7 +118,6 @@ app.get("/atualizar/:id", function (req, res) {
                             "data": unity.data().data,
                             "observacao": unity.data().observacao
                         }
-                        i++;
                     }
                 })
                     .catch(err => {
